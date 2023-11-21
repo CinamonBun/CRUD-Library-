@@ -76,6 +76,7 @@ $sql = json_decode($data, TRUE);
                                                 <input type="hidden" name="penulis" value="<?= $data['penulis'] ?>">
                                                 <input type="hidden" name="tahun" value="<?= $data['tahun'] ?>">
                                                 <input type="submit" value="Save" name="input" class="btn btn-outline-dark">
+                                                <a href="form_edit_buku.php?id=<?= $data['id']; ?>" class="btn btn-dark">Ubah</a>
                                             </td>
                                         </tr>
                                     </form>
